@@ -1,8 +1,10 @@
 import  express from "express"
 import bodyParser from 'body-parser';
+import cors from 'cors'
 import fs from 'fs'
 
 const app = express()
+app.use(cors())
 app.use(bodyParser.json());
 
 app.get("/api/createFile", (req, res) =>{
