@@ -1,0 +1,27 @@
+.boton-contenedor{
+    height: 83px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 38px;
+    background-color: #1b1b32;
+    color: #fff;
+    border-radius: 25px;
+    border: 2px solid #fff;
+    cursor: pointer;
+    user-select: none;/*Evita que el texto del boton se pueda seleccionar*/
+    flex: 1 1;/* define el espacio en proporcion que usara el elemento, como el fr en grid*/
+    margin: 4px;
+}
+.boton-contenedor:hover{
+    background-color: #5a01a7;
+}
+
+.operador{
+    background-color: #00471b;
+}
+
+.operador:hover{
+   background-color:#ff6600 ; 
+}
